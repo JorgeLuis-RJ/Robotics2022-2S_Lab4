@@ -28,9 +28,7 @@ And according to those frames of reference, here are each of link's D&H paramete
 
 ![This is an image](/assets/PhantomX_D&H.png)
 
-In the last table, and based on the first picture of this section, the workspace of the PhantomX Pincher robot, the generic parameters d1, a2, a3 and a4 are ####, respectively. 
-
-
+In the last table, and based on the first picture of this section, the workspace of the PhantomX Pincher robot, the generic parameters d1, a2, a3 and a4 are 42, 105, 105 and 110 mm, respectively.
 
 #### Movement Through ROS
 
@@ -62,6 +60,10 @@ In order to generate the first commands that pushes the PhantomX arm robot into 
 ```
 
 As it may be noted, the same lines of code had been copied (five times actually) in order to get a paused movement one joint at a time, going from the _home_ comfiguration at [0, 0, 1.57, 0, 0] to the arbitrary one at [30°, -30°, 30°, -30°, 0] (although, in the code was written in radians), by changing one by one the joint angle values.
+
+#### Creation of the Peter Corke Toolbox Model
+
+
 
 ### Results
 
