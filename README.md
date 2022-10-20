@@ -10,7 +10,7 @@ Jorge Luis Reina Jara<br/>
 
 ## Laboratory 4 - Forward Kinematics, Phantom X & ROS
 
-![This is an image](/assets/PhantomXPincher_Presentation.png)
+![This is an image](/assets/PhantomX_Presentation.png)
 
 ### Introduction
 This repository tries to show the development of the Fourth Laboratory in the Robotics course of the National University of Colombia. It turned around the control and execution of some code to manipulate, at a joint level, the configuration of the PhantomX Pincher Robot, a very useful and widespread learning tool in the robotics world. The main goal was to stablish an effective connection to some of the ROS topics and services related to the PhantomX manipulator to publish the desire joint angle values and also, to monitor them by the exact subscription.
@@ -63,7 +63,13 @@ As it may be noted, the same lines of code had been copied (five times actually)
 
 #### Creation of the Peter Corke Toolbox Model
 
+Using the D&H parameters and within MATLAB, it was created the 3D model provided by the Peter Corke specialised on robotics toolbox for the PhantomX to compute the same configurations requested in the ROS procedure, obtaining a graphic demostration of what those poses would be.
 
+This one is the _home_ position of the robot.
+![This is an image](/assets/PhantomX_homePosition.png)
+
+And this one is the so-called _objective_ position of the robot.
+![This is an image](/assets/PhantomX_objectivePosition.png)
 
 ### Results
 
